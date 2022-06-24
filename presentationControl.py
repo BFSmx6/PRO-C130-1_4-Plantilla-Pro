@@ -6,7 +6,7 @@ keyboard = Controller()
 
 cap = cv2.VideoCapture(0)
 
-#Elimina el comentario y coloca el correcto
+# Descomenta el código correcto
 
 #Width  = int(cap.get(cv2.CAP_PROP_FRAME_Height)) 
 #Height  = int(cap.get(cv2.CAP_PROP_FRAME_Width))
@@ -61,7 +61,7 @@ def countFingers(image, hand_landmarks, handNo=0):
         totalFingers = fingers.count(1)
       
         # Control de la presentación
-        #Un comment  the corect code below
+        # Descomenta el codigo correcto
 
         #finger_tip_y = (landmarks[8].x)*width
         #finger_tip_x = (landmarks[8].y)*height
